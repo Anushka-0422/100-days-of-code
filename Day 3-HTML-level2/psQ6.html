@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic tag</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-areas: "header header header" "nav main aside" "footer footer footer";
+            grid-template-columns: 1fr 2fr 1fr;  
+            grid-template-rows: auto 1fr auto; 
+            gap: 10px;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        header{
+            grid-area: header;
+            background: #9ee8f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav{
+            grid-area: nav;
+            background: #f0f4c3;
+            padding: 10px;
+        }
+
+        main{
+            grid-area: main;
+            background: #fce4ec;
+            text-align: center;
+        }
+
+        aside{
+            grid-area: aside;
+            background: #d1c4e9;
+            text-align: center;
+        }
+
+        footer{
+            grid-area: footer;
+            background: #97b0b0;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <ul class=>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Article 1</h2>
+            <p>This is First Article Content.</p>
+        </article>
+        <article>
+            <h2>Article 2</h2>
+            <p>This is the second article</p>
+        </article>
+    </main>
+
+    <aside>
+        <h3>Related</h3>
+        <p>This is right side bar with related info.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Anushka Bhosale, All rights reserved.</p>
+        <p>&hearts; by Anushka.</p>
+    </footer>
+
+</body>
+</html>

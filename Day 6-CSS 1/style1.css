@@ -1,0 +1,14 @@
+*{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(238, 227, 227);
+    background-color: rgb(16, 78, 184);
+}
+
+p{
+   color: black;
+   background-color: rgb(241, 135, 202);
+   line-height: 1.5;
+}

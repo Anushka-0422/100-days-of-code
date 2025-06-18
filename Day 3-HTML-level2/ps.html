@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Semantic Blog</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "nav main"
+        "nav aside"
+        "footer footer";
+      grid-template-columns: 1fr 3fr;
+      gap: 10px;
+      margin: 0;
+      padding: 10px;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      grid-area: header;
+      background: #2d87f0;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      grid-area: nav;
+      background: #ffffff;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li {
+      margin: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2d87f0;
+      font-weight: bold;
+    }
+
+    main {
+      grid-area: main;
+      background: #ffffff;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    article {
+      margin-bottom: 20px;
+    }
+
+    article h2 {
+      color: #333;
+    }
+
+    time {
+      color: gray;
+      font-size: 0.9em;
+    }
+
+    mark {
+      background-color: #ffecb3;
+      padding: 2px 4px;
+    }
+
+    figure {
+      margin-top: 20px;
+    }
+
+    figcaption {
+      font-style: italic;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    aside {
+      grid-area: aside;
+      background: #fffbe6;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      grid-area: footer;
+      background: #2d87f0;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    code {
+      background: #e0e0e0;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📰 TechBlog</h1>
+    <p>Exploring HTML5, CSS, and Beyond!</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">🏠 Home</a></li>
+      <li><a href="#">📝 Articles</a></li>
+      <li><a href="#">💡 Tips</a></li>
+      <li><a href="#">📞 Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <article>
+        <h2>HTML5 in 2025</h2>
+        <p><time datetime="2025-06-13">June 13, 2025</time></p>
+        <p>HTML5 introduces many <mark>semantic elements</mark> that improve both accessibility and SEO.</p>
+      </article>
+
+      <article>
+        <h2>Why Semantic Tags Matter</h2>
+        <p><time datetime="2025-06-12">June 12, 2025</time></p>
+        <p>Using tags like <mark>&lt;article&gt;</mark> and <mark>&lt;section&gt;</mark> gives meaning to content.</p>
+      </article>
+    </section>
+
+    <figure>
+      <img src="image.jpg" alt="Semantic & Non-semantic Example" width="400" />
+      <figcaption>Fig: Structure of a semantic HTML layout</figcaption>
+    </figure>
+  </main>
+
+  <aside>
+    <h3>💡 Quick Tip</h3>
+    <p>Use <code>&lt;time&gt;</code> to mark dates and improve machine readability.</p>
+    <p>Use <code>&lt;mark&gt;</code> to highlight keywords in articles.</p>
+  </aside>
+
+  <footer>
+    <p>© 2025 Anushka Bhosale. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

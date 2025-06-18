@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            padding: 10px;
+            background-color: rgb(246, 253, 255);
+            height: 300px;
+            width: 250px;
+        }
+
+        header{
+            text-align: center;
+            background: #cd31bb;
+            height: 30px;
+        }
+
+        main{
+            background: #e4f8fb;
+        }
+
+        .user{
+            background: #d15252;
+        }
+
+        .email{
+            background: #6bcbdc;
+        }
+
+        .pass{
+            background: #e08ad1;
+        }
+
+        footer{
+            text-align: center;
+            background: #e69ad8;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="/action.java">
+        <header><b>Sign Up Page</b></header>
+        <br>
+
+        <main>
+        <div class="user">
+        <label for="Username">Username :
+        <input type="text"  id="Username"  placeholder="Username">
+        </label>
+        </div>
+        <br>
+
+        <div class="email">
+        <label for="email">Email :
+        <input type="email" id="email" placeholder="Email" required>
+        </label>
+        </div>
+        <br>
+
+        <div class="pass">
+        <label for="password">Password :
+        <input type="password" placeholder="password">
+        </label>
+        </div>
+        <br>
+
+        Birth date :
+        <input type="date"/>
+        <br>
+
+        Gender :
+        <input type="radio">Female
+        <input type="radio">Male
+        <br>
+
+        Address:
+        <br>
+        <label for="Address">
+        <textarea id="Address" name="Address" rows="4" cols="30" placeholder="Enter Your Address"></textarea>
+        </label>
+        <br>
+        <br>
+
+        Hobbies:
+        <input type="checkbox"/>Playing
+        <input type="checkbox"/>Reading
+        <br> 
+
+        <label for="age">Age :     
+        <input type="number" id="age" placeholder="Enter age">
+        </label> 
+
+        <div>
+        <label for="Volume">Volume :</label>
+        <input type="range" id="Volume" min="0" max="100" name="vol" step="10" value="50"/>
+        </div>
+        <br>
+        </main>
+
+        <div>
+        <footer>
+        <button>Submit</button>
+        <button type="reset">Cancel</button>
+        </footer>
+        </div>
+    </form>
+</body>
+</html>
