@@ -1,0 +1,55 @@
+h1{
+    background-color: burlywood;
+    display: inline;
+    margin-left: 100px;
+    padding: 7px;
+    border-radius: 15px;
+    border: solid rgb(231, 24, 159);
+}
+
+.div1{
+  background-color: rgb(222, 87, 109);
+  height: 150px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px 5px 12px;
+  border: solid black;
+}
+
+.div2{
+    background-color: green;
+    height: 150px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 5px 12px;
+    border: solid black;
+    
+}
+
+button{
+    border: solid black;
+    background-color: rgb(132, 13, 158);
+    margin-left: 180px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px;
+
+}
+
+button:hover{
+    background-color: rgb(43, 213, 193);
+}
+
+div span{
+    background-color: rgb(215, 203, 203);
+    text-decoration: underline;
+    border: solid black;
+    padding: 1.5px;
+}
+
+div span:hover{
+    background-color: rgb(217, 208, 27);
+}
