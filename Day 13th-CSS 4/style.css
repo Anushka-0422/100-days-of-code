@@ -1,0 +1,32 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: #ffff00ff;
+    margin: auto;
+}
+
+#opacity{
+    background-color: #ff00ffff;
+    opacity: 0.5;
+    margin: auto;
+    margin-top: 10px;
+    transition: margin-top 5s ease-in 0.5s;
+}
+
+#opacity:hover{
+    background-color: #00ffffff;
+    opacity: 1;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    border-radius: 50%;
+    margin-top: 400px;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    margin-left: 60px;
+}
