@@ -1,0 +1,65 @@
+ body {
+            font-family:fantacy;
+            margin: 150px 200px 200px 250px;
+        }
+
+        .container {
+            border: 1px solid #ccc;
+            padding: 40px;
+            width: 900px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-section {
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .email{
+            width: 338px;
+            margin: 5px 5px 5px 0px;
+        }
+
+        .full-width {
+            width: 370px;
+        }
+
+        .small-text {
+            font-size: 11px;
+            margin-top: 5px;
+            color: #333;
+        }
+
+        .actions {
+            margin-top: 80px;
+        }
+
+        .show-password {
+            font-size: 12px;
+        }
+
+        .next-btn {
+           background-color: #e9e6e6;
+        }
+
+        .right-section {
+            margin-top: 180px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .right-section img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .signin{
+            font-size: small;
+            text-decoration: none;
+        }
