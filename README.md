@@ -23,3 +23,32 @@ CSS position (static, relative, absolute, fixed, sticky)
 
 opacity, transition, and transform animations
 
+
+🔹 Day 15 of #100DaysOfCode 🔹
+
+Today I completed Part 5 of my CSS journey and focused entirely on mastering Flexbox 💪
+
+✅ Learnt all Flexbox Properties including:
+
+display: flex
+
+flex-direction
+
+justify-content
+
+align-items
+
+align-content
+
+flex-wrap
+
+gap, row-gap, column-gap
+
+flex-grow, flex-shrink, flex-basis
+
+align-self, order
+
+💡 Flexbox is such a powerful layout tool — it makes designing responsive, clean UI so much easier! 🙌
+
+#100DaysOfCode #CSS #Flexbox #WebDevelopment #FrontendDevelopment #WomenWhoCode #TechLearning #DailyCode
+
