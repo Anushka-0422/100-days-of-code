@@ -50,5 +50,26 @@ align-self, order
 
 💡 Flexbox is such a powerful layout tool — it makes designing responsive, clean UI so much easier! 🙌
 
-#100DaysOfCode #CSS #Flexbox #WebDevelopment #FrontendDevelopment #WomenWhoCode #TechLearning #DailyCode
+🔸 Day 16 of #100DaysOfCode 🔸
 
+Today I created a clean and visually engaging landing page for my food delivery concept called "FOODSQUAD" 🍽
+
+✅ Features I built:
+
+🍴 A custom logo-style heading using food icons
+
+📄 A bold hero section describing the service
+
+🍱 Image grid of healthy Maharashtrian meals
+
+📍 Structured navigation with sections like How it Works, Meals, Pricing, and more!
+
+🎨 Skills I practiced:
+
+Flexbox layout
+
+Font styling for elegant text
+
+Visual balance between text and images
+
+💡 The concept: Delivering Maharashtrian healthy meals to your doorstep with a 365-day smart plan. I focused on clarity, simplicity, and authenticity in design.
