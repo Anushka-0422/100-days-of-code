@@ -73,3 +73,17 @@ Font styling for elegant text
 Visual balance between text and images
 
 💡 The concept: Delivering Maharashtrian healthy meals to your doorstep with a 365-day smart plan. I focused on clarity, simplicity, and authenticity in design.
+
+
+🚀 Day 17 of #100DaysOfCode
+Today I explored some powerful front-end features!
+
+✨ What I learnt:
+🔹 CSS Grid layout
+🔹 Smooth animations
+🔹 All about media queries & responsiveness
+
+📱 I put my knowledge into action by creating a responsive Pet Adoption Page 🐾 — designed to look great on any device!
+
+Check out my progress here 👇
+🔗 GitHub: [add your Day 17 repo link]
