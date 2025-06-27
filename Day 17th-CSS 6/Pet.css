@@ -1,0 +1,58 @@
+.card{
+    width: 220px;
+    height: 430px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgb(86, 86, 86);
+    transition: 1s;
+    
+}
+
+.desc{
+    padding: 0 4px 0 4px;
+}
+
+.card:hover{
+    box-shadow: 4px 8px 12px rgb(57, 57, 57);
+
+}
+
+.image{
+    height: 215px;
+    width: 215px;
+    border-radius: 5px 5px 0 0;
+}
+
+.image1{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.image2{
+    height: 200px;
+    width: 180px;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+}
+
+h2{
+    color: crimson;
+}
+
+span{
+    color: #9d6f24;
+}
+
+.Pet{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width:740px){
+    .Pet{
+        flex-wrap: wrap;
+    }
+}

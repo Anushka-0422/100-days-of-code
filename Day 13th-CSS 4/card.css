@@ -1,5 +1,5 @@
 .card{
-    width: 200px;
+     width: 220px;
     height: 300px;
     border: 2px solid black;
     display: inline-block;
@@ -7,7 +7,6 @@
     border-radius: 5px;
     box-shadow: 2px 4px 8px black;
     transition: 1s;
-
 }
 
 .desc{
