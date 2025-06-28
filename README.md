@@ -85,5 +85,9 @@ Today I explored some powerful front-end features!
 
 📱 I put my knowledge into action by creating a responsive Pet Adoption Page 🐾 — designed to look great on any device!
 
-Check out my progress here 👇
-🔗 GitHub: [add your Day 17 repo link]
+🌟 Day 18 of #100DaysOfCode
+
+Today’s Progress:
+✅ Built two responsive layouts using CSS Grid
+✅ Practiced z-index to control element stacking order
+
