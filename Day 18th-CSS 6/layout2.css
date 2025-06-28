@@ -1,0 +1,47 @@
+.container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+.container div{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.header{
+    grid-column: 1/ span 12;
+    background-color: mediumvioletred;
+}
+
+.nav{
+    grid-column: 1/ span 12;
+    background-color: bisque;
+}
+
+.sidebar{
+    grid-column: 1/ span 3;
+    grid-row: 3/ span 9;
+    background-color:cadetblue;
+}
+
+.main{
+    grid-column: 4/span 9;
+    grid-row: 3/span 9;
+    background-color: lightpink;
+}
+
+.ads{
+    grid-column: 1/span 3;
+    background-color:rgb(193, 233, 134);
+}
+
+.footer{
+    grid-column: 4/span 9;
+    grid-row: 12/span 1;
+    background-color:lightgray;
+}

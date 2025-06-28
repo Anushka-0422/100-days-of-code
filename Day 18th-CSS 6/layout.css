@@ -1,0 +1,47 @@
+.container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+.container div{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.header{
+    grid-column: 1/span 12;
+    background-color: pink;
+}
+
+.sidebar{
+    grid-column: 1/span 3;
+    grid-row: 2/span 10;
+    background-color: aqua;
+}
+
+.nav{
+    grid-column: 4/span 6;
+    background-color:darksalmon;
+}
+
+.main{
+    grid-column: 4/span 6;
+    grid-row: 3/span 9;
+    background-color:darkseagreen;
+}
+
+.ads{
+    grid-column: 10/span 3;
+    grid-row: 2/span 10;
+    background-color: cornflowerblue;
+}
+
+.footer{
+    grid-column: 1/span 12;
+    background-color: rgb(172, 168, 168);
+}
