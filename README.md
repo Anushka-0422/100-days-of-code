@@ -91,3 +91,13 @@ Today’s Progress:
 ✅ Built two responsive layouts using CSS Grid
 ✅ Practiced z-index to control element stacking order
 
+🌟 Day 19 of #100DaysOfCode 🌟
+Today, I designed a photography-themed website called LensCrafted using HTML and CSS! 📸✨
+
+✅ Created a sidebar with smooth navigation
+✅ Added hover effects on each icon and menu option
+✅ Polished layout with a clean and professional look
+✅ Integrated social media icons
+
+This project helped me strengthen my CSS layout skills and work on interactive UI elements. Small touches like hover effects really enhance user experience! 🚀
+
