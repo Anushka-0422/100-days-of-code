@@ -101,3 +101,20 @@ Today, I designed a photography-themed website called LensCrafted using HTML and
 
 This project helped me strengthen my CSS layout skills and work on interactive UI elements. Small touches like hover effects really enhance user experience! 🚀
 
+
+**Day 20 of #100DaysOfCode**
+Today, I designed and developed a beautiful Photography Website for Laura Lewis, a portrait photographer based in New York, using HTML5 & CSS3.
+
+🔹 The website includes:
+
+A welcoming homepage with her story and portrait
+
+A gallery showcasing her stunning photo work
+
+Real client testimonials
+
+Services she offers like portrait, lifestyle, and location photography
+
+Smooth layout and elegant fonts with responsive design
+
+
