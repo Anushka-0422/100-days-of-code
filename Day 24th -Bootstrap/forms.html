@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="container">
+      <h3>Form Demo</h3>
+      <div class="card">
+        <form class="card-body">
+          <div class="mb-3">
+            <label for="name" class="form-label">Roll no. :</label>
+            <input
+              type="text"
+              class="form-control-sm"
+              id="no"
+              placeholder="Enter your no."
+            />
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="class" class="form-label">Class :</label>
+            <select class="form-select-sm" aria-label="Default select example">
+              <option selected>select Class</option>
+              <option value="1">BCA-1</option>
+              <option value="2">BCA-2</option>
+              <option value="3">BCA-3</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="formFile" class="form-label"
+              >Add Your Resume :</label
+            >
+            <input class="form-control" type="file" id="formFile" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <label for="agree">
+              <input type="checkbox" id="agree" class="form-check-input" />
+              I agree to these terms and conditions
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

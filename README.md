@@ -117,4 +117,32 @@ Services she offers like portrait, lifestyle, and location photography
 
 Smooth layout and elegant fonts with responsive design
 
+✨ Day 21 ,22 & 23rd of #100DaysOfCode ✨
+I’ve successfully completed my Amazon Clone project using only HTML and CSS!
+ 
+🛍 What I Built:
+I recreated the layout of the Amazon homepage including:
 
+A responsive navigation bar with logo, search bar, and menu
+
+Product section with categories and deals
+
+Hero section and footer
+
+Use of hover effects and layout alignment for a realistic UI
+
+💡 What I Learned:
+
+Deep understanding of HTML structure and how each section is built
+
+🔹 Day 24 of #100DaysOfCode
+🎯 Today I started learning Bootstrap!
+
+I explored how to quickly build responsive and styled components.
+Here's what I created today using Bootstrap:
+✅ A modern Navbar
+✅ A clean and responsive Form
+✅ Attractive Cards for content display
+
+Loving how fast and flexible Bootstrap is for building beautiful layouts with minimal code.
+Excited to dive deeper into components and grid systems next! 🚀
