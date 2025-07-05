@@ -146,3 +146,13 @@ Here's what I created today using Bootstrap:
 
 Loving how fast and flexible Bootstrap is for building beautiful layouts with minimal code.
 Excited to dive deeper into components and grid systems next! 🚀
+
+🎧 Day 25 of #100DaysOfCode
+Today, I recreated the Spotify Front Page using Bootstrap! 🎵💻
+
+✅ Used Bootstrap's responsive grid and utility classes
+✅ Designed a clean navbar, hero section, and feature cards
+✅ Practiced layout structuring and responsiveness
+✅ Strengthened my frontend skills using a real-world UI clone
+
+Cloning real websites helps me understand how professional UIs are built — and Bootstrap makes the process smoother and faster!
