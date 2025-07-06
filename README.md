@@ -156,3 +156,25 @@ Today, I recreated the Spotify Front Page using Bootstrap! 🎵💻
 ✅ Strengthened my frontend skills using a real-world UI clone
 
 Cloning real websites helps me understand how professional UIs are built — and Bootstrap makes the process smoother and faster!
+
+🎯Day 26 of #100DaysOfCode
+
+Today, I created a responsive and creative card-based webpage using HTML, CSS, and the Bootstrap framework.
+
+🧩 I designed a grid of 12 unique cards, each with:
+
+A beautiful image
+
+A custom title and description
+
+A "Go somewhere" button for redirection
+
+Smooth hover effects with a subtle blue & white combination using soft, dull tones like #e6f0fa
+
+💡 This project helped me understand:
+
+Bootstrap's responsive grid system
+
+Clean UI card layout practices
+
+Hover effects using subtle muted colors
