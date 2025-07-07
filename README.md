@@ -178,3 +178,12 @@ Bootstrap's responsive grid system
 Clean UI card layout practices
 
 Hover effects using subtle muted colors
+
+🌱 Day 27 of #100DaysOfCode
+Today I worked on a website ByteBloom by using ChatGPT!
+
+✅ Created a responsive Contact section with form, map, and query layout
+✅ Designed a clean Footer with brand links and social icons
+✅ Fixed Navbar spacing for a polished look
+
+🧠 With the help of great prompts and guidance from ChatGPT, I was able to design this modern layout quickly and efficiently.
