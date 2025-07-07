@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive Navbar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <!-- Left Side Logo -->
+        <a class="navbar-brand d-flex align-items-center gap-1" href="#">
+            <img src="logo.avif" alt="Logo" />
+            <h1><span style="opacity: 0.7; font-family: poppines;">yteBloom</span></h1>
+        </a>
+        
+
+        <!-- Toggle Button for Mobile View -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Centered Navigation Links -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Our Services</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item" href="#">Service 1</a></li>
+                <li><a class="dropdown-item" href="#">Service 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="heroCarousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div
+          class="carousel-item active"
+          style="background-image: url('slidee\ 2.avif')"
+        >
+          <div class="carousel-overlay"></div>
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <h1>Welcome to Slide 1</h1>
+            <p>
+              Explore our website to learn more.<br />Join us in our exciting
+              journey.
+            </p>
+            <a class="btn btn-primary" href="#">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('slide\ 1.webp');
+          "
+        >
+          <div class="carousel-overlay"></div>
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <h1>Discover Features</h1>
+            <p>All the tools you need.<br />At your fingertips.</p>
+            <a class="btn btn-primary" href="#">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('slide\ 3.avif');
+          "
+        >
+          <div class="carousel-overlay"></div>
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <h1>Get Started Today</h1>
+            <p>Don't wait any longer.<br />Your journey begins here.</p>
+            <a class="btn btn-primary" href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and Right Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Side Content -->
+          <div class="col-md-6">
+            <small class="text-primary text-uppercase">About Us</small>
+            <ul class="nav nav-tabs mt-3" id="aboutTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="company-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#company"
+                  type="button"
+                  role="tab"
+                >
+                  Our Company
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="mission-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#mission"
+                  type="button"
+                  role="tab"
+                >
+                  Our Mission
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="vision-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#vision"
+                  type="button"
+                  role="tab"
+                >
+                  Our Vision
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content mt-3" id="aboutTabsContent">
+              <!-- Tab 1 -->
+              <div
+                class="tab-pane fade show active"
+                id="company"
+                role="tabpanel"
+              >
+                <h4>Who We Are</h4>
+                <p>
+                  We are a forward-thinking company dedicated to providing
+                  quality solutions and building lasting relationships with our
+                  clients.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+              <!-- Tab 2 -->
+              <div class="tab-pane fade" id="mission" role="tabpanel">
+                <h4>Our Purpose</h4>
+                <p>
+                  Our mission is to empower businesses and individuals through
+                  cutting-edge technology and unmatched support.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+              <!-- Tab 3 -->
+              <div class="tab-pane fade" id="vision" role="tabpanel">
+                <h4>Looking Ahead</h4>
+                <p>
+                  We envision a future where innovation drives global progress
+                  and every challenge becomes an opportunity.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side Image -->
+          <div class="col-md-6 text-center">
+            <img
+              src="aboutus.avif"
+              alt="About Image"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white" id="services">
+      <div class="container text-center">
+        <h2 class="fw-bold">Our Services</h2>
+        <p class="text-muted mx-auto" style="max-width: 700px">
+          We offer a wide range of services tailored to your needs. From
+          professional consultation to end-to-end development, our experienced
+          team ensures top-quality results with every project we take on.
+        </p>
+
+        <div class="row mt-5">
+          <!-- Service 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-gear-fill fs-1 text-primary"></i>
+              </div>
+              <h5>Service 1</h5>
+              <p>
+                High-quality service tailored for your business goals and
+                success.
+              </p>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <!-- Service 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-laptop-fill fs-1 text-success"></i>
+              </div>
+              <h5>Service 2</h5>
+              <p>Custom development and design solutions for your company.</p>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <!-- Service 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-bar-chart-fill fs-1 text-warning"></i>
+              </div>
+              <h5>Service 3</h5>
+              <p>
+                Improve your business insights with our data-driven services.
+              </p>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Service 4 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-shield-lock-fill fs-1 text-danger"></i>
+              </div>
+              <h5>Service 4</h5>
+              <p>
+                Reliable security services to protect your data and systems.
+              </p>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <!-- Service 5 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-phone-fill fs-1 text-info"></i>
+              </div>
+              <h5>Service 5</h5>
+              <p>Mobile solutions crafted to meet your customer demands.</p>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <!-- Service 6 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-globe2 fs-1 text-secondary"></i>
+              </div>
+              <h5>Service 6</h5>
+              <p>Global reach solutions to scale your brand worldwide.</p>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="projects">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Our Projects</h2>
+
+        <!-- Tabs -->
+        <ul
+          class="nav nav-tabs justify-content-center mb-4"
+          id="projectTabs"
+          role="tablist"
+        >
+          <li class="nav-item">
+            <button
+              class="nav-link active"
+              data-bs-toggle="tab"
+              data-bs-target="#all"
+            >
+              All
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#app">
+              App
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-link"
+              data-bs-toggle="tab"
+              data-bs-target="#product"
+            >
+              Product Branding
+            </button>
+          </li>
+          
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content">
+          <!-- All Projects -->
+          <div class="tab-pane fade show active" id="all">
+            <div class="row g-4">
+              <!-- 1st Row -->
+              <div class="col-md-4">
+                <div class="project-card tall-up">
+                  <img
+                    src="p1.avif"
+                    alt="Project 1"
+                  />
+                  <div class="overlay">Project 1</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="project-card">
+                  <img
+                    src="p4.avif"
+                    alt="Project 2"
+                  />
+                  <div class="overlay">Project 2</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="project-card tall-down">
+                  <img
+                    src="p3.avif"
+                    alt="Project 3"
+                  />
+                  <div class="overlay">Project 3</div>
+                </div>
+              </div>
+              <!-- 2nd Row -->
+              <div class="col-md-4">
+                <div class="project-card">
+                  <img
+                    src="p2.avif"
+                    alt="Project 4"
+                  />
+                  <div class="overlay">Project 4</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="project-card">
+                  <img
+                    src="p5.avif"
+                    alt="Project 5"
+                  />
+                  <div class="overlay">Project 5</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="project-card">
+                  <img
+                    src="p6.avif"
+                    alt="Project 6"
+                  />
+                  <div class="overlay">Project 6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- App Projects -->
+      <div class="tab-pane fade" id="app">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="project-card tall-up">
+              <img
+                src="p2.avif"
+                alt="App Project 1"
+              />
+              <div class="overlay">App Project 1</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-card">
+              <img
+                src="p4.avif"
+                alt="App Project 2"
+              />
+              <div class="overlay">App Project 2</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-card tall-down">
+              <img
+                src="p6.avif"
+                alt="App Project 3"
+              />
+              <div class="overlay">App Project 3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Projects -->
+      <div class="tab-pane fade" id="product">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="project-card tall-up">
+              <img
+                src="p1.avif"
+                alt="Product Project 1"
+              />
+              <div class="overlay">Product Project 1</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-card">
+              <img
+                src="p3.avif"
+                alt="Product Project 2"
+              />
+              <div class="overlay">Product Project 2</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-card tall-down">
+              <img
+                src="p5.avif"
+                alt="Product Project 3"
+              />
+              <div class="overlay">Product Project 3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Contact Us</h2>
+          <p class="text-muted">
+            We'd love to hear from you. Drop us a message or find us on the map!
+          </p>
+        </div>
+        <div class="row g-4">
+          <!-- Contact Form -->
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Subject of your message"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary rounded-pill px-4">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Info & Map -->
+          <div class="col-md-6">
+            <div class="mb-4">
+              <iframe
+                class="w-100 rounded-4 shadow-sm"
+                height="300"
+                style="border: 0"
+                loading="lazy"
+                allowfullscreen
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019727490256!2d-122.42067968500916!3d37.77851977975814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c23f2d1f1%3A0xf39cf40f97c5c0e3!2sSan%20Francisco%20City%20Hall!5e0!3m2!1sen!2sus!4v1600000000000"
+              ></iframe>
+            </div>
+            <div>
+              <h5>Address</h5>
+              <p>123 Developer Street, San Francisco, CA 94102</p>
+
+              <h5>Email</h5>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+
+              <h5>Phone</h5>
+              <p>+1 234 567 890</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background-color:rgb(193, 211, 234) ;">
+      <div class="container text-center py-4">
+        <p class="mb-0">
+          &copy; 2025 ByteBloom. All rights reserved.
+        </p>
+        <ul class="list-inline mt-2">
+          <li class="list-inline-item">
+            <a href="#" class="text-decoration-none">Privacy Policy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-decoration-none">Terms of Service</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

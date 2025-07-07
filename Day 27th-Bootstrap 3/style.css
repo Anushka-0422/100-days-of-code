@@ -1,0 +1,303 @@
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-nav .nav-link {
+    padding: 0 1rem;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Black overlay */
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.carousel-caption h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.carousel-caption .btn {
+    margin-top: 1rem;
+}
+
+.navbar-brand img {
+    margin-right: none;
+    height: 45px;
+}
+
+/* General Section Styling */
+section {
+  background-color: #f8f9fa; /* light background */
+  padding: 60px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Small heading style */
+section small {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #007bff; /* Bootstrap primary */
+}
+
+/* Tab Navigation */
+.nav-tabs .nav-link {
+  border: none;
+  font-weight: 600;
+  color: #333;
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  background-color: #e9ecef;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Tab content */
+.tab-content h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #212529;
+}
+
+.tab-content p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Learn More Button */
+.tab-content .btn-outline-primary {
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab-content .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Right Side Image */
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav-tabs {
+    flex-direction: column;
+  }
+
+  .nav-tabs .nav-link {
+    margin-bottom: 10px;
+  }
+
+  .tab-content h4 {
+    font-size: 20px;
+  }
+
+  .tab-content p {
+    font-size: 15px;
+  }
+}
+/* Section Background & Typography */
+#services {
+  background-color: #ffffff;
+  color: #333;
+  padding: 60px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading Styling */
+#services h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #0d6efd; /* Bootstrap Primary */
+}
+
+/* Centered paragraph below heading */
+#services p.text-muted {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6c757d;
+  margin-top: 10px;
+}
+
+/* Service Card Styling */
+#services .card {
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+#services .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon Styling */
+#services i {
+  font-size: 2.5rem;
+  padding: 15px;
+  background-color: #e7f1ff;
+  border-radius: 50%;
+  color: #0d6efd;
+  display: inline-block;
+}
+
+/* Card Title */
+#services h5 {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+/* Paragraph in Cards */
+#services .card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Button Styling */
+#services .btn-outline-primary {
+  border-radius: 50px;
+  padding: 6px 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+#services .btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 767px) {
+  #services h2 {
+    font-size: 2rem;
+  }
+
+  #services .card {
+    margin-bottom: 20px;
+  }
+
+  #services .btn {
+    font-size: 0.9rem;
+  }
+}
+#projects .project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+#projects .project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+}
+
+#projects .project-card:hover img {
+  transform: scale(1.05);
+}
+
+#projects .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+#projects .project-card:hover .overlay {
+  opacity: 1;
+}
+
+/* Uneven height styles */
+.tall-up {
+  margin-top: -10px;
+}
+.tall-down {
+  margin-top: 10px;
+}
+
+/* Tabs styling */
+#projects .nav-tabs .nav-link {
+  border-radius: 30px;
+  margin: 0 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+#projects .nav-tabs .nav-link.active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+#contact {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#contact h2 {
+  color: #0d6efd;
+}
+
+#contact form .form-control {
+  border-radius: 12px;
+  border: 1px solid #ced4da;
+}
+
+#contact button {
+  background-color: #0d6efd;
+  border: none;
+}
+
+#contact button:hover {
+  background-color: #0b5ed7;
+}
