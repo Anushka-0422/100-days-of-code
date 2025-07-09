@@ -201,3 +201,17 @@ I covered the basics and built a strong foundation with the following concepts:
 ✨ A quick glance at TypeScript as well
 
 Also practiced all concepts directly in the console, which helped reinforce my understanding! 🧠💻
+
+💡 Day 29 of #100DaysOfCode
+Today, I continued my JavaScript journey and learned:
+
+✅ How to link external JS files to HTML
+✅ The power of Template Literals for clean and dynamic strings
+
+🔍 JavaScript Operators –
+
+🔸 Arithmetic: +, -, *, /, %, ++, --
+🔸 Assignment: =, +=, -=, *=, /=, %=
+🔸 Comparison: ==, ===, !=, !==, >, <, >=, <=
+🔸 String Concatenation: + to join strings
+🔸 Type Check: typeof, instanceof
