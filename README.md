@@ -187,3 +187,17 @@ Today I worked on a website ByteBloom by using ChatGPT!
 ✅ Fixed Navbar spacing for a polished look
 
 🧠 With the help of great prompts and guidance from ChatGPT, I was able to design this modern layout quickly and efficiently.
+
+
+🔸 Day 28 of hashtag#100DaysOfCode
+Today, I officially stepped into the world of JavaScript! 🚀
+I covered the basics and built a strong foundation with the following concepts:
+
+✨ Variables
+✨ Data Types
+✨ Operators
+✨ JavaScript Keywords – let, const, var
+✨ Identifier Rules
+✨ A quick glance at TypeScript as well
+
+Also practiced all concepts directly in the console, which helped reinforce my understanding! 🧠💻
