@@ -215,3 +215,10 @@ Today, I continued my JavaScript journey and learned:
 🔸 Comparison: ==, ===, !=, !==, >, <, >=, <=
 🔸 String Concatenation: + to join strings
 🔸 Type Check: typeof, instanceof
+
+🎯 Day 30 of 100 Days of Code
+
+Today I explored two powerful topics in JavaScript​:
+
+🔹 Strings – Learned how to manipulate strings using methods like .length, .slice(), .toUpperCase(), .toLowerCase(), .includes(), and more.
+🔹 Arrays – Practiced with array methods such as .push(), .pop(), .shift(), .unshift(), .indexOf(), .includes(), .join(), and .splice().
