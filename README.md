@@ -222,3 +222,27 @@ Today I explored two powerful topics in JavaScript​:
 
 🔹 Strings – Learned how to manipulate strings using methods like .length, .slice(), .toUpperCase(), .toLowerCase(), .includes(), and more.
 🔹 Arrays – Practiced with array methods such as .push(), .pop(), .shift(), .unshift(), .indexOf(), .includes(), .join(), and .splice().
+
+🔹 Day 31 of #100DaysOfCode
+
+Today I solved assignments based on Arrays and Strings in JavaScript.
+
+
+
+🧠 Practiced:
+
+
+
+Array methods (push, pop, map, filter)
+
+
+
+String operations (slice, toUpperCase, includes)
+
+
+
+Logic building with loops and conditions
+
+
+
+✅ Improving my problem-solving and logic step by step!
