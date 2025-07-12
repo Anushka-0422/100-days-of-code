@@ -227,22 +227,22 @@ Today I explored two powerful topics in JavaScript​:
 
 Today I solved assignments based on Arrays and Strings in JavaScript.
 
-
-
 🧠 Practiced:
 
-
-
 Array methods (push, pop, map, filter)
-
-
-
 String operations (slice, toUpperCase, includes)
-
-
-
 Logic building with loops and conditions
 
-
-
 ✅ Improving my problem-solving and logic step by step!
+
+🔹 Day 32 of hashtag#100DaysOfCode
+Today was all about revision and deep practice.
+I revised and practiced everything I’ve learned so far — including:
+
+✅ JavaScript Basics
+✅ Variables, Data Types, Operators
+✅ Strings & Arrays
+✅ DOM basics
+✅ Assignments and problem-solving
+
+Consistency is 🔑 — even small progress adds up!
