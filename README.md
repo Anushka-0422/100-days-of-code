@@ -246,3 +246,17 @@ I revised and practiced everything I’ve learned so far — including:
 ✅ Assignments and problem-solving
 
 Consistency is 🔑 — even small progress adds up!
+
+Day 33 of #100DaysOfCode
+JavaScript — loops!
+I built a strong foundation in loop control.
+
+🔁 Topics I covered:
+for & while loops in JS
+Dry running logic to understand how iterations work
+Printed odd, even numbers and multiplication tables
+Explored nested loops through simple patterns
+Understood how infinite loops can occur (and how to avoid them!)
+
+Created a mini JS project: Favorite Movie Prompt App
+
