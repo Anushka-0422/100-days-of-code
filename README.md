@@ -260,3 +260,22 @@ Understood how infinite loops can occur (and how to avoid them!)
 
 Created a mini JS project: Favorite Movie Prompt App
 
+Day 34 of #100DaysOfCode
+
+✅ Built a Mini To-Do List App using Vanilla JavaScript (Browser Console Based)
+
+🛠 Features I implemented:
+
+Add tasks to a list by typing add
+Delete tasks by typing delete (requires index input)
+View all tasks automatically after each action
+Exit the app by typing quit
+Handles invalid commands gracefully with Wrong Request message
+
+💡 This CLI-style app helped me practice:
+
+Loops
+Arrays
+Conditional statements
+prompt() and alert() for browser interactions
+Clean user flow with validations
