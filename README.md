@@ -279,3 +279,16 @@ Arrays
 Conditional statements
 prompt() and alert() for browser interactions
 Clean user flow with validations
+
+🎯 Day 35 of hashtag#100DaysOfCode
+
+🔁 Solved classic loop-based assignments using JavaScript!
+Today’s focus was on strengthening core programming logic with simple yet powerful patterns 💡
+
+💻 What I practiced:
+Printing numbers 
+Calculating sum
+
+✨ Each problem gave me better clarity on:
+When to use for, while, or nested loops
+How to break problems into small steps
