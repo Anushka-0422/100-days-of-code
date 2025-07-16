@@ -292,3 +292,13 @@ Calculating sum
 ✨ Each problem gave me better clarity on:
 When to use for, while, or nested loops
 How to break problems into small steps
+
+🌟 Day 36 of #100daysOfCode 🌟
+
+Today was all about diving deeper into JavaScript Objects :
+
+🔹 Object creation & manipulation (update, delete, access values)
+🔹 Working with nested objects
+🔹 Looping through array of objects & Object of Objects
+🔹 Exploring the Math object
+🔹 Generating random integers using Math.random()
