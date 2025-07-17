@@ -302,3 +302,13 @@ Today was all about diving deeper into JavaScript Objects :
 🔹 Looping through array of objects & Object of Objects
 🔹 Exploring the Math object
 🔹 Generating random integers using Math.random()
+
+🚀 Day 37 #100DaysOfCode🚀
+Today I stepped into the powerful world of JavaScript Functions .Here’s what I explored:
+
+🔹 Function arguments & return values
+🔹 Understanding scope (function,block,lexical)
+🔹 Introduction to higher-order functions
+🔹 Realized how JavaScript treats functions as first-class citizens
+
+Functions are not just reusable blocks—they’re tools for writing cleaner and more modular code. 🔁💡
