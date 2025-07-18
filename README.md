@@ -312,3 +312,19 @@ Today I stepped into the powerful world of JavaScript Functions .Here’s what I
 🔹 Realized how JavaScript treats functions as first-class citizens
 
 Functions are not just reusable blocks—they’re tools for writing cleaner and more modular code. 🔁💡
+
+🎮 Day 38 of #100DaysOfCode – Built a Custom Guessing Game! 🎮
+
+Today I built a fun and dynamic Guess the Number game using JavaScript!
+
+🧠 Game Logic:
+1️⃣ The user enters a maximum number
+2️⃣ The program generates a random number between 1 and max
+3️⃣ The user tries to guess it until they get it right! 🔢
+4️⃣ Hints like “Too high” or “Too low” guide them toward the correct answer
+
+🛠 Concepts Practiced:
+🔹 prompt() and alert() interaction
+🔹 Math.random() & Math.floor()
+🔹 Loops, conditions, and type conversion
+🔹 Input validation and user feedback
