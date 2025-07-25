@@ -328,3 +328,53 @@ Today I built a fun and dynamic Guess the Number game using JavaScript!
 🔹 Math.random() & Math.floor()
 🔹 Loops, conditions, and type conversion
 🔹 Input validation and user feedback
+
+🔹 Day 39 of hashtag#100DaysOfCode
+Today, I created an Odd-Even Factory using JavaScript! 🔄
+
+🧠 The idea was simple yet fun:
+Give a number ➡ get a label → "Odd" or "Even" instantly!
+
+✨ Concepts used:
+
+Conditional Statements
+Functions
+User Input Handling
+Basic Logic Building
+
+🚀 Day 40 ,41 & 42nd of hashtag#100DaysOfCode
+
+🧠 Learning Update:
+
+Day 40 :
+🔹 Attended Young Science Communicator Training under "Vidnyan Vari" Program.
+🔹 Explored how to effectively explain science to different audiences.
+🔹 Engaged in practical sessions on communication strategies.
+
+Day 41& 42 :
+🔹 Continued with hands-on activities in science communication.
+🔹 Gained insights into audience psychology and impactful messaging.
+🔹 Collaborated with peers to deliver mini science talks 🎤
+
+🎯 Key Takeaways:
+✅ Science is powerful, but communication makes it impactful
+✅ Learned to simplify complex topics
+✅ Great networking & learning experience!
+
+📍 Grateful for this opportunity 🙏
+Let's continue the learning journey! 🌱
+
+🚀 Day 43 of hashtag#100DaysOfCode
+
+🧠 Today's Learning:
+🔹 Explored Functions in JavaScript
+🔹 Understood how to define and call functions
+🔹 Practiced with function parameters, return values, and reusability
+
+📌 Key Concepts Covered:
+✅ function keyword
+✅ Function expressions vs declarations
+✅ Arrow functions (=>)
+✅ Scope and return statements
+
+💡 Realized how functions help in writing clean, modular, and reusable code!
