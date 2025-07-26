@@ -378,3 +378,15 @@ Let's continue the learning journey! 🌱
 ✅ Scope and return statements
 
 💡 Realized how functions help in writing clean, modular, and reusable code!
+
+🚀 Day 44 of hashtag#100DaysOfCode
+ Today was all about JavaScript Array Methods! 🧠
+ Explored some powerful tools that make working with data smoother and cleaner. Here's what I covered:
+
+✅ forEach() – Looping through elements
+ ✅ map() – Transforming elements into a new array
+ ✅ filter() – Selecting elements based on a condition
+ ✅ every() – Checking if all elements pass a test
+ ✅ some() – Checking if any element passes a test
+ ✅ reduce() – Crunching an array into a single value
+These methods are game changers for writing clean and efficient JavaScript code. 💻✨
