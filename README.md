@@ -401,3 +401,16 @@ I explored some really useful methods and properties, including:
 🎯 Navigating with classList (add, remove, toggle, contains)
 ➕ Adding elements dynamically with appendChild(e), append(e), prepend(element), insertAjacentElement(where, e).
 ➖ Removing elements using removeChild, remove.
+
+🌟 Day 48 of #100DaysOfCode 🌟
+Today, I explored DOM Events and how to make webpages more interactive using JavaScript!
+
+📌 What I learned:
+🔹 onclick event – to trigger functions when an element is clicked
+🔹 onmouseenter – to respond when the mouse hovers over an element
+🔹 addEventListener() – for better control and flexibility over event handling
+🔹 The use of this keyword inside event listeners – to reference the element that triggered the event
+
+💡 DOM events bring life to your website. It’s all about reacting to user interactions!
+
+#100DaysOfCode #WebDevelopment #JavaScript #backend#LearningJourney #TechSkills #DOM #EventHandling #CodeNewbie
