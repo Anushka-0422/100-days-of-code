@@ -390,3 +390,14 @@ Let's continue the learning journey! 🌱
  ✅ some() – Checking if any element passes a test
  ✅ reduce() – Crunching an array into a single value
 These methods are game changers for writing clean and efficient JavaScript code. 💻✨
+
+Day 45th and 46th day of hashtag#100DaysOfCode
+
+Today I dived deeper into DOM manipulation using JavaScript!
+I explored some really useful methods and properties, including:
+
+✅ Manipulating attributes (getAttribute, setAttribute)
+🎨 Styling elements using .style
+🎯 Navigating with classList (add, remove, toggle, contains)
+➕ Adding elements dynamically with appendChild(e), append(e), prepend(element), insertAjacentElement(where, e).
+➖ Removing elements using removeChild, remove.
