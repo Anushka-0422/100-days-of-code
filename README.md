@@ -413,4 +413,16 @@ Today, I explored DOM Events and how to make webpages more interactive using Jav
 
 💡 DOM events bring life to your website. It’s all about reacting to user interactions!
 
-#100DaysOfCode #WebDevelopment #JavaScript #backend#LearningJourney #TechSkills #DOM #EventHandling #CodeNewbie
+🚀 Day 49 of hashtag#100DaysOfCode
+Today I explored keyboard events and form events in JavaScript! 🧠⌨
+
+🔹 Learned how to handle:
+
+keydown, keyup, keypress events
+submit, change, input, focus, blur events in forms
+
+🔹 Also practiced extracting data from forms using:
+
+event.target
+.value properties
+Preventing default form submission with event.preventDefault()
