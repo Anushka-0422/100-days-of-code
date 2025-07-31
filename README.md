@@ -426,3 +426,8 @@ submit, change, input, focus, blur events in forms
 event.target
 .value properties
 Preventing default form submission with event.preventDefault()
+
+✨ Day 50 of 100 – Halfway There! ✨
+ Today marks a special milestone – 50 days of consistent learning and growth in my hashtag#100DaysOfCode journey! 💯🔥
+✅ Solved a key assignment that challenged my logic and problem-solving skills
+ 📝 Created a basic Text Editor using HTML, CSS & JavaScript – a small project .
